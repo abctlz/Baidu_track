@@ -148,8 +148,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         builder.show();
-        System.out.println("修改");
-
     }
 
     //用于存储起始点和终点
