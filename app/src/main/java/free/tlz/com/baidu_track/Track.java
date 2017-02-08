@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 
 public class Track {
-    private int id;
+    private int id;//ID
     private String track_name;//线路名称
     private String create_date;//创建时间
     private String start_loc;//起点位置
@@ -30,6 +30,7 @@ public class Track {
         this.create_date = create_date;
         this.start_loc = start_loc;
         this.end_loc = end_loc;
+        System.out.println("提示：");
     }
 
     public int getId() {
