@@ -30,7 +30,6 @@ public class Track {
         this.create_date = create_date;
         this.start_loc = start_loc;
         this.end_loc = end_loc;
-        System.out.println("提示：");
     }
 
     public int getId() {
